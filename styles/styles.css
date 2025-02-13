@@ -9,7 +9,8 @@ body{
 
 .cwrapper {
     background-color: hsl(0, 0%, 100%);
-    padding: 5%;
+    max-width: 325px;
+    padding: 2%;
     border-radius: 3%;
 }
 
@@ -21,18 +22,64 @@ body{
 
 .preview img {
     min-width: 100%;
+    height: auto;
     margin-bottom: 5%;
     border-radius: 3%;
 }
 
-.learning {
+/* .learning {
     background-color: hsl(47, 88%, 63%);
     border-radius: 15%;
     border-color: hsl(47, 88%, 63%);
     box-shadow: none;
+} */
 
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 15%;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+button {
+    font-family: "Figtree", serif;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+ }
 
 .writer {
     display: flex;
+    align-items: center;
 }
+.writer img {
+    max-height: 30px;
+}
+
+.description p {
+    font-family: "Figtree", serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+.writer p {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Figtree", serif;
+    color: hsl(0, 0%, 7%);
+}
+
+h2 {
+    font-family: "Figtree", serif;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+h2:active {
+    color: hsl(47, 88%, 63%);
+}
+
+
+
+
