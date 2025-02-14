@@ -18,6 +18,7 @@ body{
     max-width: 375px;
     padding: 20px;
     border-radius: 3%;
+    border: 1.5px solid hsl(0, 0%, 7%);
     box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 }
 
@@ -51,23 +52,14 @@ button {
     color: hsl(0, 0%, 7%);
  }
 
- .description {
-    line-height: 1.6;
-    margin-bottom: 15px;
- }
-
- .description p {
-    font-family: "Figtree", serif;
-    font-weight: 500;
-    color: hsl(0, 0%, 42%);
-}
+ 
 
 h2 {
     font-family: "Figtree", serif;
     font-weight: 800;
     color: hsl(0, 0%, 7%);
     margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 a:active {
@@ -76,8 +68,16 @@ a:active {
 
 a {
     color: hsl(0, 0%, 7%);
+    text-decoration: none;
 }
 
+
+.description p {
+    font-family: "Figtree", serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+}
 
 .writer {
     display: flex;
