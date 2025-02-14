@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: hsl(47, 88%, 63%);
     display: flex;
@@ -9,9 +15,10 @@ body{
 
 .cwrapper {
     background-color: hsl(0, 0%, 100%);
-    max-width: 325px;
-    padding: 2%;
+    max-width: 375px;
+    padding: 3%;
     border-radius: 3%;
+    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 }
 
 .preview{
